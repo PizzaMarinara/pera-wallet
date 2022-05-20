@@ -11,7 +11,7 @@ plugins {
 
 apply from: 'https://raw.githubusercontent.com/Hipo/macaron/master/config/quality/quality.gradle'
 
-def flavorsGradlePath = 'flavors.gradle'
+def flavorsGradlePath = 'src/pera/build.gradle'
 if (project.file(flavorsGradlePath).exists()) {
     apply from: flavorsGradlePath
 }
