@@ -20,6 +20,7 @@
         android:id="@+id/singleButtonBottomSheet"
         android:name="com.algorand.android.utils.SingleButtonBottomSheet"
         android:label="SingleButtonBottomSheet"
+        android:clickable="true"
         tools:layout="@layout/bottom_sheet_single_button">
         <argument
             android:name="titleAnnotatedString"
